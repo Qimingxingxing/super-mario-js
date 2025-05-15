@@ -4,7 +4,7 @@ A Super Mario-style platformer game built with vanilla JavaScript and HTML5 Canv
 
 ## Play Now
 
-[Play the game here](https://YOUR_USERNAME.github.io/super-mario-js)
+[Play the game here](https://qimingxingxing.github.io/super-mario-js)
 
 ## Features
 
