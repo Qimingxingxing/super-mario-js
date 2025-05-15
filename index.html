@@ -3,42 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A Super Mario-style platformer game built with JavaScript">
+    <meta name="keywords" content="mario, game, javascript, platformer">
     <title>Super Mario Clone</title>
-    <style>
-        body {
-            margin: 0;
-            padding: 20px;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            background-color: #333;
-            font-family: 'Press Start 2P', Arial, sans-serif;
-        }
-        #gameCanvas {
-            border: 4px solid #422;
-            border-radius: 4px;
-            background-color: #5c94fc;
-        }
-        #score {
-            color: white;
-            font-size: 20px;
-            margin-bottom: 10px;
-        }
-        #controls {
-            color: white;
-            margin-top: 10px;
-            text-align: center;
-            font-size: 14px;
-        }
-    </style>
     <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
     <div id="score">COINS: <span>0</span></div>
     <canvas id="gameCanvas" width="800" height="400"></canvas>
     <div id="controls">
-        Arrow Keys to Move | Space to Jump
+        Arrow Keys to Move | Space to Jump<br>
+        Collect coins and reach the flag!
     </div>
-    <script src="game.js"></script>
+    <a href="https://github.com/YOUR_USERNAME/super-mario-js" class="github-link" target="_blank">View on GitHub</a>
+    <script src="js/game.js"></script>
 </body>
 </html> 
