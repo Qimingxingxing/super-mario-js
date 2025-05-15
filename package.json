@@ -1,0 +1,22 @@
+{
+    "name": "super-mario-js",
+    "version": "1.0.0",
+    "description": "A Super Mario-style platformer game built with vanilla JavaScript",
+    "main": "index.html",
+    "scripts": {
+        "start": "serve .",
+        "dev": "serve ."
+    },
+    "keywords": [
+        "mario",
+        "game",
+        "javascript",
+        "html5",
+        "canvas"
+    ],
+    "author": "",
+    "license": "MIT",
+    "devDependencies": {
+        "serve": "^14.2.1"
+    }
+} 
